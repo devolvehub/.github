@@ -1,0 +1,32 @@
+name: Feature request
+description: Propose a change in behaviour
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the problem before the solution. A problem can be solved several ways;
+        a proposed solution can only be accepted or declined.
+
+        Expect a plain answer, including a plain "no, and here is why". A change can be
+        declined because it does not fit the direction of the project.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What are you trying to do, and where does it currently stop?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What you have in mind
+      description: Optional. If you already have a shape for it, describe it here.
+    validations:
+      required: false
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What you tried or considered instead
+    validations:
+      required: false

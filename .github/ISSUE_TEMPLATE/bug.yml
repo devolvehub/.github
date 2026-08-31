@@ -1,0 +1,40 @@
+name: Bug report
+description: Something behaves differently than documented
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before you start: check this repository's README for its support level. A
+        **showcase** repository reads issues but does not promise an answer.
+
+        For anything security-related, close this and follow SECURITY.md instead — a
+        public issue tells everyone about the problem before there is a fix.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: The exact command or call, and the output you got.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected instead
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Release tag, or the commit you are on.
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Operating system and version
+      placeholder: macOS 15.2 · Ubuntu 24.04 · Windows 11
+    validations:
+      required: false

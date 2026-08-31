@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/devolvehub/.github/blob/main/SECURITY.md
+    about: Never in a public issue — use the private route described here.
+  - name: How much support this repository offers
+    url: https://github.com/devolvehub/.github/blob/main/SUPPORT.md
+    about: Showcase or maintained, and what each one promises.
