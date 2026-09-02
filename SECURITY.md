@@ -8,7 +8,7 @@ people who would use it, before there is anything to update to.
 Two private routes, in this order:
 
 1. **GitHub Private Vulnerability Reporting** — on the repository, open the **Security** tab and
-   choose *Report a vulnerability*. This reaches the maintainer directly and stays private until
+   choose *Report a vulnerability*. This reaches the maintainers directly and stays private until
    an advisory is published. Use it when it is available on that repository.
 2. **Email security@d8b.dev** when the first route is not offered.
 
@@ -17,8 +17,8 @@ that shows it. A proof of concept is welcome and not required.
 
 ## What happens next
 
-These projects are maintained by one person, so the honest expectation is a reply within a few
-working days rather than within hours. You will get:
+These projects are maintained by a small team with day jobs, so the honest expectation is a
+reply within a few working days rather than within hours. You will get:
 
 - confirmation that the report arrived and was understood,
 - an assessment of whether it is exploitable and how severely,

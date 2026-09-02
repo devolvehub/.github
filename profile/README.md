@@ -1,6 +1,8 @@
 # devolvehub
 
 Software built for our own work, published because it turned out to be useful beyond it.
+devolvehub is the GitHub home of [d8b](https://d8b.dev); the organisation carries that name,
+the repositories carry this one.
 
 Most of what lands here comes from a working day rather than a plan: tooling for Claude Code,
 small MCP servers, fast read-only CLIs for analysing code and repositories, and the occasional
